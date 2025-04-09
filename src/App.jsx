@@ -141,10 +141,13 @@ const App = () => {
 
   return (
     <>
-      <h2>Current money: {money}</h2>
+      <h1>Zombie Fighters</h1>
+      <h3>Current money: {money}</h3>
+      <h3>Team Strength: {getTotalStrengthOfTeam()}</h3>
+      <h3>Team Agility: {getTotalAgilityOfTeam()}</h3>
+
       <h3>
-        Your team (Total strength {getTotalStrengthOfTeam()}) (Total agility{" "}
-        {getTotalAgilityOfTeam()}):{" "}
+        Team:
       </h3>
       {team.length <= 0 ? (
         <h4>Pick some team members!</h4>
@@ -173,8 +176,7 @@ const App = () => {
         </ul>
       )}
 
-      <h3>Available teams</h3>
-
+      <h3>Fighters:</h3>
       {zombieFighters.length == 0 ? (
         <h4>No members available!</h4>
       ) : (
