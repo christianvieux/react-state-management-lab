@@ -1,12 +1,27 @@
-# React + Vite
+# Zombie Fighter Team Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project set up using Vite for the General Assembly Software Engineering Bootcamp lab exercise. The application allows you to create a team of zombie fighters, manage your budget, and track your team's strength and agility.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Team Creation**: Add fighters to your team from a list of available zombie fighters.
+- **Budget Management**: Track your remaining money as you add or remove team members.
+- **Total Strength & Agility**: Display the total strength and agility of your team based on selected fighters.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+
+1. Clone the repository or download the code.
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the app in your browser (usually `http://localhost:5173` or check your terminal).
